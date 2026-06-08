@@ -86,7 +86,7 @@ export function Contact() {
           ),
           // Social buttons
           React.createElement("div", { style: { display: "flex", gap: "10px", flexWrap: "wrap" } },
-            React.createElement("a", { href: "mailto:acencindy82@gmail.com", style: { display: "flex", alignItems: "center", gap: "6px", padding: "8px 16px", borderRadius: "8px", border: "1px solid rgba(255,255,255,0.12)", color: "#8ba3c7", textDecoration: "none", fontSize: "0.85rem" } },
+            React.createElement("a", { href: "mailto:sindrellaacen512@gmail.com", style: { display: "flex", alignItems: "center", gap: "6px", padding: "8px 16px", borderRadius: "8px", border: "1px solid rgba(255,255,255,0.12)", color: "#8ba3c7", textDecoration: "none", fontSize: "0.85rem" } },
               React.createElement(Mail, { size: 14 }), "Email"
             ),
             React.createElement("a", { href: "https://github.com/sindrella-45", target: "_blank", rel: "noopener noreferrer", style: { display: "flex", alignItems: "center", gap: "6px", padding: "8px 16px", borderRadius: "8px", border: "1px solid rgba(255,255,255,0.12)", color: "#8ba3c7", textDecoration: "none", fontSize: "0.85rem" } },
