@@ -42,7 +42,7 @@ export function Footer() {
       // Social icons
       React.createElement("div", { style: { display: "flex", justifyContent: "center", gap: "12px", marginBottom: "1.5rem" } },
         React.createElement("a", {
-          href: "mailto:acencindy82@gmail.com",
+          href: "mailto:sindrellaacen512@gmail.com",
           style: { width: "40px", height: "40px", borderRadius: "50%", border: "1px solid rgba(0,212,170,0.2)", display: "flex", alignItems: "center", justifyContent: "center", color: "#8ba3c7", textDecoration: "none" }
         }, React.createElement(Mail, { size: 16 })),
         React.createElement("a", {

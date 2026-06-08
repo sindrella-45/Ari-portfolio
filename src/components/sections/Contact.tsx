@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { Mail, Phone, MapPin, Github, Linkedin } from "lucide-react";
 
 const contactInfo = [
-  { icon: Mail, label: "Email", value: "acencindy82@gmail.com", href: "mailto:acencindy82@gmail.com" },
+  { icon: Mail, label: "Email", value: "sindrellaacen512@gmail.com", href: "mailto:sindrellaacen512@gmail.com" },
   { icon: Phone, label: "Phone", value: "+256 784 423 891", href: "tel:+256784423891" },
   { icon: MapPin, label: "Location", value: "Kampala, Uganda", href: null },
   { icon: Github, label: "GitHub", value: "github.com/sindrella-45", href: "https://github.com/sindrella-45" },
@@ -35,7 +35,7 @@ export function Contact() {
     e.preventDefault();
     const { name, email, subject, message } = form;
     if (!name || !email || !message) return;
-    window.location.href = `mailto:acencindy82@gmail.com?subject=${encodeURIComponent(subject || "Portfolio Contact")}&body=${encodeURIComponent(`From: ${name} (${email})\n\n${message}`)}`;
+    window.location.href = `mailto:sindrellaacen512@gmail.com?subject=${encodeURIComponent(subject || "Portfolio Contact")}&body=${encodeURIComponent(`From: ${name} (${email})\n\n${message}`)}`;
   };
 
   return React.createElement("section", {
