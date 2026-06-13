@@ -5,8 +5,8 @@ import { motion } from "framer-motion";
 import { Mail, Phone, MapPin, Github, Linkedin } from "lucide-react";
 
 const contactInfo = [
-  { icon: Mail, label: "Email", value: "acencindy82@gmail.com", href: "mailto:acencindy82@gmail.com" },
-  { icon: Phone, label: "Phone", value: "+256 784 423 891", href: "tel:+256784423891" },
+  { icon: Mail, label: "Email", value: "sindrellaacen512@gmail.com", href: "mailto:sindrellaacen512@gmail.com" },
+  { icon: Phone, label: "Phone", value: "+256 784 346 176", href: "tel:+256784346176" },
   { icon: MapPin, label: "Location", value: "Kampala, Uganda", href: null },
   { icon: Github, label: "GitHub", value: "github.com/sindrella-45", href: "https://github.com/sindrella-45" },
 ];
@@ -22,7 +22,7 @@ export function Contact() {
     e.preventDefault();
     const { name, email, subject, message } = form;
     if (!name || !email || !message) return;
-    window.location.href = `mailto:acencindy82@gmail.com?subject=${encodeURIComponent(subject || "Portfolio Contact")}&body=${encodeURIComponent(`From: ${name} (${email})\n\n${message}`)}`;
+    window.location.href = `mailto:sindrellaacen512@gmail.com?subject=${encodeURIComponent(subject || "Portfolio Contact")}&body=${encodeURIComponent(`From: ${name} (${email})\n\n${message}`)}`;
   };
 
   return React.createElement("section", { id: "contact", className: "section-wrap bg1" },
@@ -62,7 +62,7 @@ export function Contact() {
           )
         ),
         React.createElement("div", { className: "contact-socials" },
-          React.createElement("a", { href: "mailto:acencindy82@gmail.com", className: "soc-btn" },
+          React.createElement("a", { href: "mailto:sindrellaacen512@gmail.com", className: "soc-btn" },
             React.createElement(Mail, { size: 13 }), "Email"
           ),
           React.createElement("a", { href: "https://github.com/sindrella-45", target: "_blank", rel: "noopener noreferrer", className: "soc-btn" },

@@ -25,7 +25,7 @@ export function About() {
           React.createElement("span", { className: "lang-pill active" }, "English — Fluent"),
           React.createElement("span", { className: "lang-pill gold" }, "Luo — Native"),
           React.createElement("span", { className: "lang-pill" }, "Spanish — Beginner"),
-          React.createElement("span", { className: "lang-pill" }, "German — Beginner")
+        
         )
       ),
 
@@ -60,7 +60,7 @@ export function About() {
           " completing my AI & Software Engineering programme at Turing College, actively looking to contribute to teams building ambitious AI products."
         ),
         React.createElement("div", { style: { display: "flex", gap: "12px", flexWrap: "wrap", marginTop: "2rem" } },
-          React.createElement("a", { href: "mailto:acencindy82@gmail.com", className: "btn-main" }, "✉ Email Me"),
+          React.createElement("a", { href: "mailto:sindrellaacen512@gmail.com", className: "btn-main" }, "✉ Email Me"),
           React.createElement("a", { href: "https://github.com/sindrella-45", target: "_blank", rel: "noopener noreferrer", className: "btn-ghost" }, "GitHub Profile")
         )
       )
