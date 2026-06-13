@@ -6,18 +6,13 @@ import { ThemeProvider } from "@/components/layout/ThemeProvider";
 
 export const metadata: Metadata = {
   title: "Sindrella Acen — AI Engineer",
-  description:
-    "AI Engineer specializing in LLM Applications, AI Agents, RAG Systems, and Backend Engineering. Based in Kampala, Uganda.",
+  description: "AI Engineer specializing in LLM Applications, AI Agents, RAG Systems, and Backend Engineering. Based in Kampala, Uganda.",
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" suppressHydrationWarning className="dark">
-      <body className="antialiased bg-[#040d1a] dark:bg-[#040d1a]">
+    <html lang="en" suppressHydrationWarning>
+      <body>
         <ThemeProvider>
           <Navbar />
           <main>{children}</main>
